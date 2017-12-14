@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head></head>
+
+    <body>
+        <!--how to create forms in html-->
+        <form name="testForm" method="POST" action="http://www.google.com/api/test">
+            <!--first name-->
+            <section>
+                <label for="firstName">Enter First Name:</label>
+                <input type="text" name="firstName" id="firstName" title="Please enter first name"/>
+            </section>
+
+            <!--last name-->
+            <section>
+                <label for="lastName">Enter Last Name:</label>
+                <input type="text" name="lastName" id="lastName" title="Please enter last name"/>
+            </section>
+
+            <!--gender-->
+            <section>
+                <label for="male">Male: </label>
+                <input type="radio" name="gender" id="male" value="Male"/>
+
+                <label for="female">Female: </label>
+                <input type="radio" name="gender" id="female" value="Female"/>
+            </section>
+
+            <!--email-->
+            <section>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" title="Please enter email"/>
+            </section>
+
+            <!--password-->
+            <section>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" title="Please enter password"/>
+            </section>
+
+            <button type="reset">Cancel</button>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
